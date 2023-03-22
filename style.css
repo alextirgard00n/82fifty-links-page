@@ -60,7 +60,8 @@ main {
     height: 150px;
     background-image: url(./media/Background\ CD\ 3000.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: 110%;
+    /* background-size: cover; */
     border-radius: 50%;
 }
 
@@ -123,9 +124,14 @@ ul {
     transition: .3s;
 }
 
+li {
+    transition: .3s;
+}
+
 .link-content:hover,
 .icon-box:hover,
-.icon-box>img:hover {
+.icon-box>img:hover,
+li:hover {
     transform: scale(102%);
 }
 
